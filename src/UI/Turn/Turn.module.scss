@@ -1,0 +1,98 @@
+.wrapper {
+    margin-top: -50px;
+    width: 191px;
+    height: 150px;
+    background: var(--pink);
+    border: 3px solid var(--black);
+    box-shadow: 0px 10px 0px var(--black);
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.3s;
+    .title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: var(--white);
+
+    }
+    .count {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 71px;
+        text-align: center;
+        color: var(--white);
+    }
+}
+
+.wrapper2 {
+    @extend .wrapper;
+    background: var(--yellow);
+    transition: 0.3s;
+    .title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: var(--black);
+
+    }
+    .count {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 71px;
+        text-align: center;
+        color: var(--black);
+    }
+}
+
+.winWrapper{
+    margin-top: -50px;
+    width: 285px;
+    height: 170px;
+    background: var(--white);
+    border: 3px solid var(--black);
+    box-shadow: 0px 10px 0px var(--black);
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: var(--black);
+
+    }
+    .count {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 71px;
+        text-align: center;
+        color: var(--black);
+    }
+    .btn {
+        background: var(--purple);
+        border-radius: 20px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        width: fit-content;
+        padding: 10px 19px;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            background: var(--pink);
+        }
+    }
+}

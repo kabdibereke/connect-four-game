@@ -1,0 +1,96 @@
+.wrapper {
+    width: 100%;
+    .menu_wrapper {
+        margin: 0 auto;
+        max-width: 632px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        .btn {
+            background: var(--purple);
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            width: fit-content;
+            padding: 10px 19px;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: 0.3s;
+            &:hover {
+                transition: 0.3s;
+                background: var(--pink);
+            }
+        }
+    }
+    .board_wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+
+@media(max-width:911px) {
+    .wrapper {
+        width: 100%;
+        
+        .board_wrapper {
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr 1fr; 
+            gap: 0px 0px; 
+            align-items: center;
+            justify-content: center;
+            grid-template-areas: 
+              "first third"
+              "second second"; 
+            
+              .second { grid-area: second; margin-top: -250px;}
+              .first { grid-area:first; width: 150px;justify-self: center; }
+              .third { grid-area: third; width: 150px; justify-self: center; }
+        }
+    }
+}
+
+@media(max-width:911px) {
+    .wrapper {
+     .menu_wrapper {
+        
+         .btn {    
+             font-size: 12px;
+             padding: 10px 12px;
+         }
+     }
+    }
+ }
+
+
+ 
+@media(max-width:479px) {
+    .wrapper {
+        width: 100%;
+        
+        .board_wrapper {
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr 1fr; 
+            gap: 0px 0px; 
+            align-items: center;
+            justify-content: center;
+            grid-template-areas: 
+              "first third"
+              "second second"; 
+            
+              .second { grid-area: second; margin-top: -250px;}
+              .first { grid-area:first; width: 150px;justify-self: center; }
+              .third { grid-area: third; width: 150px; justify-self: center; }
+        }
+    }
+ }

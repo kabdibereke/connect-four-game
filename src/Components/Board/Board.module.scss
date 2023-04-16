@@ -1,0 +1,275 @@
+.wrapper {
+    margin-top: 51px;
+    position: relative;
+    z-index: 5645546;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+table {
+
+    margin: 0 auto;
+    background: var(--white);
+    border: 3px solid var(--black);
+    box-shadow: 0px 10px 0px var(--black);
+    border-radius: 40px;
+    .mr {
+      margin-top: 50px;
+    }
+  }
+
+.tile {
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+}
+  
+  .open {
+   
+    background-color: var(--purple-light);
+    border-radius: 100px;
+    height: 65px;
+    width: 65px;
+    border: 3px solid var(--black);
+    box-shadow: 0px 12px 0px 0px rgba(0, 0, 0, 0.75) inset;
+  }
+  
+
+
+  .player1 {
+    box-shadow: 0px 15px 10px -8px rgba(7, 7, 7, 0.6) inset;
+    background-color: var(--pink);
+    transition: background-color 0.25s;
+    border-radius: 100px;
+    height: 65px;
+    width: 65px;
+    border: 3px solid var(--black);
+  }
+  
+  .player2 {
+    box-shadow: 0px 15px 10px -8px rgba(7, 7, 7, 0.6) inset;
+    background-color: var(--yellow);
+    transition: background-color 0.25s;
+    border-radius: 100px;
+    height: 65px;
+    width: 65px;
+    border: 3px solid var(--black);
+  }
+
+  .button {
+    border: 1px solid blue;
+    color: blue;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+
+  @media(max-width:617px) {
+    .wrapper {
+      margin-top: 80px;
+      
+  }
+    .tile {
+      height: 65px;
+      width: 65px;
+     
+      
+    }
+      
+      .open {
+       
+       
+        height: 55px;
+        width: 55px;
+       
+      }
+      
+    
+    
+      .player1 {
+       
+        height: 55px;
+        width: 55px;
+        
+      }
+      
+      .player2 {
+        
+        height: 55px;
+        width: 55px;
+       
+      }
+    
+  }
+
+  @media(max-width:525px) {
+    .wrapper {
+      margin-top: 80px;
+      
+  }
+    .tile {
+      height: 60px;
+      width: 60px;
+     
+      
+    }
+      
+      .open {
+       
+       
+        height: 50px;
+        width: 50px;
+       
+      }
+      
+    
+    
+      .player1 {
+       
+        height: 50px;
+        width: 50px;
+        
+      }
+      
+      .player2 {
+        
+        height: 50px;
+        width: 50px;
+       
+      }
+    
+  }
+
+  @media(max-width:479px) {
+    .wrapper {
+      margin-top: 100px;
+      
+  }
+    .tile {
+      height: 50px;
+      width: 50px;
+     
+      
+    }
+      
+      .open {
+       
+       
+        height: 45px;
+        width: 45px;
+       
+      }
+      
+    
+    
+      .player1 {
+       
+        height: 45px;
+        width: 45px;
+        
+      }
+      
+      .player2 {
+        
+        height: 45px;
+        width: 45px;
+       
+      }
+    
+  }
+
+  @media(max-width:407px) {
+    .wrapper {
+      margin-top: 120px;
+      
+  }
+    .tile {
+      height: 45px;
+      width: 45px;
+     
+      
+    }
+      
+      .open {
+       
+       
+        height: 40px;
+        width: 40px;
+       
+      }
+      
+    
+    
+      .player1 {
+       
+        height: 40px;
+        width: 40px;
+        
+      }
+      
+      .player2 {
+        
+        height: 40px;
+        width: 40px;
+       
+      }
+    
+  }
+
+  @media(max-width:367px) {
+    .wrapper {
+      margin-top: 140px;
+      
+  }
+    .tile {
+      height: 38px;
+      width: 38px;
+     
+      
+    }
+      
+      .open {
+       
+       
+        height: 32px;
+        width: 32px;
+        box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.75) inset;
+      }
+      
+    
+    
+      .player1 {
+       
+        height: 32px;
+        width: 32px;
+        
+      }
+      
+      .player2 {
+        
+        height: 32px;
+        width: 32px;
+       
+      }
+    
+  }
